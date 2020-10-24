@@ -1,0 +1,100 @@
+name: Core
+version: ${project.version}
+main: me.github.wert.Core.Core
+api-version: 1.15
+prefix: Core
+authors: [mk3ext]
+description: Core
+commands:
+  bytesadd:
+    description: simple
+    aliases: [ba]
+  rank:
+    description: Sets a player's rank.
+    aliases: [setrank, updaterank, rankset]
+  clearchat:
+    description: Clears the chat in your current world.
+    aliases: [cc, chatclear]
+  clear:
+    description: Clears yours or another player's inventory.
+    aliases: [cl, clearinv, clearinventory]
+  gamemode:
+    description: Switches yours or another player's gamemode.
+    aliases: [gm, gmc, gms, gm1]
+  message:
+    description: Privately messages another player.
+    aliases: [msg, whisper, tell, m, w]
+  reply:
+    description: Replies to another player's private message.
+    aliases: [r, answer]
+  contactspy:
+    description: Toggles contact spy.
+    aliases: [cs, cspy]
+  messagespy:
+    description: Toggles message spy.
+    aliases: [ms, mspy]
+  give:
+    description: Gives players items.
+    aliases: [giveitem, item]
+  teleport:
+    description: Teleports you to another player.
+    aliases: [tp]
+  bytes:
+    description: bytes management.
+  report:
+    description: Report another player.
+  reportinfo:
+    description: Get information about a report.
+    aliases: [ri]
+  reporthandle:
+    description: Handle a report.
+    aliases: [rh]
+  reports:
+    description: Unanswered reports amount.
+    aliases: [reps]
+  reportstats:
+    description: Shows report statistics.
+    aliases: [howmanyreports, reportstatistics, repstat]
+  punish:
+    description: Punish a user.
+    aliases: [p]
+  punishhistory:
+    description: View a user's punish history.
+    aliases: [ph, phistory]
+  removepunishment:
+    description: Fully remove a punishment.
+    aliases: [rp]
+  appealsteam:
+    description: Add/remove users from the appeals team.
+  punishcustom:
+    description: Custom punish a user.
+    aliases: [pc, pcustom]
+  staffchat:
+    description: Chat for staff.
+    aliases: [sc, schat]
+  chatslow:
+    description: Slows chat.
+    aliases: [slow, slowchat]
+  chatsilence:
+    description: Silences the chat.
+    aliases: [silence, cs]
+  vanish:
+    description: Vanish from other players.
+    aliases: [disappear, v]
+  messagetoggle:
+    description: Toggles incoming messages.
+  messagesounds:
+    description: Toggles message sounds.
+  hub:
+    description: Sends you to hub.
+  rules:
+    description: Displays rules.
+  announce:
+    description: Announce a message.
+  shout:
+    description: Broadcast to your server.
+  suffix:
+    description: Change active suffix.
+    aliases: [suffixgui]
+  suffixmanage:
+    description: Manage suffixes.
